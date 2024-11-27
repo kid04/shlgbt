@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module main</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">main</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5C%D0%BF%D0%BE%D0%BB%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%5Cpycharmprojects%5Cpythonproject2%5Cmain.py">c:\users\ползователь\pycharmprojects\pythonproject2\main.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="datetime.html">datetime</a><br>
+<a href="json.html">json</a><br>
+</td><td class="multicolumn"><a href="os.html">os</a><br>
+<a href="telebot.html">telebot</a><br>
+</td><td class="multicolumn"><a href="threading.html">threading</a><br>
+<a href="telebot.types.html">telebot.types</a><br>
+</td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="telebot.custom_filters.html#AdvancedCustomFilter">telebot.custom_filters.AdvancedCustomFilter</a>(<a href="abc.html#ABC">abc.ABC</a>)
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="main.html#CallbackFilter">CallbackFilter</a>
+</dt><dt class="heading-text"><a href="main.html#CallbackFilterSoft">CallbackFilterSoft</a>
+</dt><dt class="heading-text"><a href="main.html#MainFilter">MainFilter</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="CallbackFilter">class <strong>CallbackFilter</strong></a>(<a href="telebot.custom_filters.html#AdvancedCustomFilter">telebot.custom_filters.AdvancedCustomFilter</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Авторский&nbsp;фильтр&nbsp;для&nbsp;обработки&nbsp;функции&nbsp;обратного&nbsp;вызова<br>
+&nbsp;<br>
+Истино,&nbsp;если&nbsp;текст&nbsp;сообщения&nbsp;соответствует&nbsp;значению&nbsp;text<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="main.html#CallbackFilter">CallbackFilter</a></dd>
+<dd><a href="telebot.custom_filters.html#AdvancedCustomFilter">telebot.custom_filters.AdvancedCustomFilter</a></dd>
+<dd><a href="abc.html#ABC">abc.ABC</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="CallbackFilter-check"><strong>check</strong></a>(call, text)</dt><dd><span class="code">Perform&nbsp;a&nbsp;check.</span></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset()</dl>
+
+<dl><dt><strong>__annotations__</strong> = {}</dl>
+
+<dl><dt><strong>key</strong> = 'message_text'</dl>
+
+<hr>
+Data descriptors inherited from <a href="telebot.custom_filters.html#AdvancedCustomFilter">telebot.custom_filters.AdvancedCustomFilter</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="CallbackFilterSoft">class <strong>CallbackFilterSoft</strong></a>(<a href="telebot.custom_filters.html#AdvancedCustomFilter">telebot.custom_filters.AdvancedCustomFilter</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">Авторский&nbsp;фильтр&nbsp;для&nbsp;обработки&nbsp;функции&nbsp;обратного&nbsp;вызова<br>
+&nbsp;<br>
+Истино,&nbsp;если&nbsp;текст&nbsp;сообщения&nbsp;содержит&nbsp;text<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="main.html#CallbackFilterSoft">CallbackFilterSoft</a></dd>
+<dd><a href="telebot.custom_filters.html#AdvancedCustomFilter">telebot.custom_filters.AdvancedCustomFilter</a></dd>
+<dd><a href="abc.html#ABC">abc.ABC</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="CallbackFilterSoft-check"><strong>check</strong></a>(call, text)</dt><dd><span class="code">Perform&nbsp;a&nbsp;check.</span></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset()</dl>
+
+<dl><dt><strong>__annotations__</strong> = {}</dl>
+
+<dl><dt><strong>key</strong> = 'message_contains'</dl>
+
+<hr>
+Data descriptors inherited from <a href="telebot.custom_filters.html#AdvancedCustomFilter">telebot.custom_filters.AdvancedCustomFilter</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table> <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="MainFilter">class <strong>MainFilter</strong></a>(<a href="telebot.custom_filters.html#AdvancedCustomFilter">telebot.custom_filters.AdvancedCustomFilter</a>)</td></tr>
+    
+<tr><td class="decor title-decor"><span class="code">&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt>Method resolution order:</dt>
+<dd><a href="main.html#MainFilter">MainFilter</a></dd>
+<dd><a href="telebot.custom_filters.html#AdvancedCustomFilter">telebot.custom_filters.AdvancedCustomFilter</a></dd>
+<dd><a href="abc.html#ABC">abc.ABC</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="MainFilter-check"><strong>check</strong></a>(message, text)</dt><dd><span class="code">Perform&nbsp;a&nbsp;check.</span></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__abstractmethods__</strong> = frozenset()</dl>
+
+<dl><dt><strong>__annotations__</strong> = {}</dl>
+
+<dl><dt><strong>key</strong> = 'text'</dl>
+
+<hr>
+Data descriptors inherited from <a href="telebot.custom_filters.html#AdvancedCustomFilter">telebot.custom_filters.AdvancedCustomFilter</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-add_commentary"><strong>add_commentary</strong></a>(message)</dt><dd><span class="code">Функция&nbsp;добавления&nbsp;комментария</span></dd></dl>
+ <dl><dt><a name="-add_friend"><strong>add_friend</strong></a>(message)</dt><dd><span class="code">Обработчик&nbsp;команды&nbsp;добавления&nbsp;друга<br>
+:param&nbsp;message:&nbsp;сообщение&nbsp;от&nbsp;пользователя</span></dd></dl>
+ <dl><dt><a name="-apply_friendship"><strong>apply_friendship</strong></a>(call)</dt><dd><span class="code">Обработчик&nbsp;добавления&nbsp;друзей</span></dd></dl>
+ <dl><dt><a name="-debug_delay"><strong>debug_delay</strong></a>(message)</dt><dd><span class="code">Вывод&nbsp;музыки,&nbsp;которая&nbsp;будет&nbsp;отправлена&nbsp;позднее.&nbsp;Для&nbsp;целей&nbsp;отладки</span></dd></dl>
+ <dl><dt><a name="-delete_friend"><strong>delete_friend</strong></a>(user)</dt><dd><span class="code">Функция&nbsp;удаления&nbsp;друзей.&nbsp;Отправляет&nbsp;пользователю&nbsp;список&nbsp;неприглушенных&nbsp;друзей&nbsp;для&nbsp;возможного&nbsp;удаления</span></dd></dl>
+ <dl><dt><a name="-echo_all"><strong>echo_all</strong></a>(message)</dt></dl>
+ <dl><dt><a name="-give_commentary_back"><strong>give_commentary_back</strong></a>(message)</dt><dd><span class="code">Функция&nbsp;отправки&nbsp;комментария</span></dd></dl>
+ <dl><dt><a name="-message_timer"><strong>message_timer</strong></a>()</dt><dd><span class="code">Функция&nbsp;рассылки&nbsp;сообщений,&nbsp;назначенных&nbsp;на&nbsp;определённое&nbsp;время</span></dd></dl>
+ <dl><dt><a name="-mute_friend"><strong>mute_friend</strong></a>(user)</dt><dd><span class="code">Функция&nbsp;приглушения&nbsp;друзей.&nbsp;Отправляет&nbsp;пользователю&nbsp;список&nbsp;неприглушенных&nbsp;друзей&nbsp;для&nbsp;возможного&nbsp;приглушения</span></dd></dl>
+ <dl><dt><a name="-mute_message"><strong>mute_message</strong></a>(call)</dt><dd><span class="code">Фукция&nbsp;рассылки&nbsp;уведомлений&nbsp;от&nbsp;заглушенных&nbsp;друзей</span></dd></dl>
+ <dl><dt><a name="-process_delete_friends_step"><strong>process_delete_friends_step</strong></a>(message)</dt><dd><span class="code">Функция&nbsp;&nbsp;удаления&nbsp;друзей.&nbsp;Удаляет&nbsp;выбранных&nbsp;друзей.<br>
+message:&nbsp;номера&nbsp;друзей,&nbsp;которых&nbsp;надо&nbsp;удалить,&nbsp;перечисленные&nbsp;через&nbsp;пробел</span></dd></dl>
+ <dl><dt><a name="-process_friend_request_step"><strong>process_friend_request_step</strong></a>(message)</dt><dd><span class="code">Функция&nbsp;рассылки&nbsp;приглашения&nbsp;дружбы</span></dd></dl>
+ <dl><dt><a name="-process_mute_friends_step"><strong>process_mute_friends_step</strong></a>(message)</dt><dd><span class="code">Функция&nbsp;&nbsp;приглушения&nbsp;друзей.&nbsp;Приглушает&nbsp;выбранных&nbsp;друзей.<br>
+message:&nbsp;номера&nbsp;друзей,&nbsp;которых&nbsp;надо&nbsp;приглушить,&nbsp;перечисленные&nbsp;через&nbsp;пробел</span></dd></dl>
+ <dl><dt><a name="-process_pick_type_step"><strong>process_pick_type_step</strong></a>(call)</dt><dd><span class="code">Общий&nbsp;обработчик&nbsp;кнопок</span></dd></dl>
+ <dl><dt><a name="-process_send_url_step"><strong>process_send_url_step</strong></a>(message)</dt><dd><span class="code">Функция&nbsp;рассылки&nbsp;URL</span></dd></dl>
+ <dl><dt><a name="-process_settings"><strong>process_settings</strong></a>(message)</dt><dd><span class="code">Обработчик&nbsp;команды&nbsp;открытия&nbsp;меню&nbsp;настроек<br>
+:param&nbsp;message:&nbsp;сообщение&nbsp;от&nbsp;пользователя</span></dd></dl>
+ <dl><dt><a name="-process_share_music_step"><strong>process_share_music_step</strong></a>(message)</dt><dd><span class="code">Обработчик&nbsp;второго&nbsp;шага&nbsp;рассылки&nbsp;музыки&nbsp;друзьям<br>
+:param&nbsp;message:&nbsp;сообщение&nbsp;от&nbsp;пользователя</span></dd></dl>
+ <dl><dt><a name="-process_unmute_friends_step"><strong>process_unmute_friends_step</strong></a>(message)</dt><dd><span class="code">Функция&nbsp;отмены&nbsp;приглушения&nbsp;друзей.&nbsp;Отменяет&nbsp;приглушения&nbsp;для&nbsp;выбранных&nbsp;друзей.<br>
+message:&nbsp;номера&nbsp;друзей,&nbsp;которых&nbsp;надо&nbsp;перестать&nbsp;приглушать,&nbsp;перечисленные&nbsp;через&nbsp;пробел</span></dd></dl>
+ <dl><dt><a name="-restore_friendship"><strong>restore_friendship</strong></a>(message)</dt><dd><span class="code">Обработчик&nbsp;команды&nbsp;по&nbsp;обновлению&nbsp;списка&nbsp;друзей<br>
+&nbsp;<br>
+:param&nbsp;message:&nbsp;сообщение&nbsp;от&nbsp;пользователя</span></dd></dl>
+ <dl><dt><a name="-send_music"><strong>send_music</strong></a>(message)</dt><dd><span class="code">Обработчик&nbsp;команды&nbsp;рассылки&nbsp;музыки&nbsp;друзьям<br>
+:param&nbsp;message:&nbsp;сообщение&nbsp;от&nbsp;пользователя</span></dd></dl>
+ <dl><dt><a name="-send_request"><strong>send_request</strong></a>(message)</dt><dd><span class="code">Обработчик&nbsp;отправки&nbsp;приглашения&nbsp;дружды</span></dd></dl>
+ <dl><dt><a name="-send_welcome"><strong>send_welcome</strong></a>(message)</dt><dd><span class="code">Обработчик&nbsp;команды&nbsp;начала&nbsp;работы&nbsp;с&nbsp;ботом<br>
+:param&nbsp;message:&nbsp;сообщение&nbsp;от&nbsp;пользователя</span></dd></dl>
+ <dl><dt><a name="-set_asking"><strong>set_asking</strong></a>(call)</dt><dd><span class="code">Обработчик&nbsp;настройки&nbsp;уведомлений</span></dd></dl>
+ <dl><dt><a name="-set_time_step"><strong>set_time_step</strong></a>(message)</dt><dd><span class="code">Обработчик&nbsp;выбора&nbsp;точного&nbsp;времени&nbsp;рассылки<br>
+:param&nbsp;message:&nbsp;сообщение&nbsp;пользователя</span></dd></dl>
+ <dl><dt><a name="-set_type_step"><strong>set_type_step</strong></a>(message)</dt><dd><span class="code">Обработчик&nbsp;выбора&nbsp;типа&nbsp;рассылаемого&nbsp;контента</span></dd></dl>
+ <dl><dt><a name="-settings"><strong>settings</strong></a>(call)</dt><dd><span class="code">Обработчик&nbsp;выбора&nbsp;подменю&nbsp;настроек</span></dd></dl>
+ <dl><dt><a name="-settings_friend"><strong>settings_friend</strong></a>(call)</dt><dd><span class="code">Обработчик&nbsp;выбора&nbsp;пункта&nbsp;"Приглушенные&nbsp;друзья"&nbsp;в&nbsp;подменю&nbsp;настроек</span></dd></dl>
+ <dl><dt><a name="-settings_notifications"><strong>settings_notifications</strong></a>(call)</dt><dd><span class="code">Обработчик&nbsp;выбора&nbsp;пункта&nbsp;"Уведомления"&nbsp;в&nbsp;подменю&nbsp;настроек</span></dd></dl>
+ <dl><dt><a name="-share_music"><strong>share_music</strong></a>(user)</dt><dd><span class="code">Функция&nbsp;рассылки&nbsp;музыки<br>
+user:&nbsp;пользователь-отправитель</span></dd></dl>
+ <dl><dt><a name="-share_music_back"><strong>share_music_back</strong></a>(call)</dt><dd><span class="code">Функция&nbsp;отправки&nbsp;музыки&nbsp;или&nbsp;комментария&nbsp;в&nbsp;ответ</span></dd></dl>
+ <dl><dt><a name="-share_notifications_time_step"><strong>share_notifications_time_step</strong></a>(message)</dt><dd><span class="code">Функция&nbsp;установления&nbsp;времени&nbsp;уведомлений<br>
+:message:&nbsp;перечисленные&nbsp;через&nbsp;пробел&nbsp;числа&nbsp;-&nbsp;часы,&nbsp;в&nbsp;которые&nbsp;пользователь&nbsp;хочет&nbsp;получать&nbsp;уведомления</span></dd></dl>
+ <dl><dt><a name="-unmute_friend"><strong>unmute_friend</strong></a>(user)</dt><dd><span class="code">Функция&nbsp;отмены&nbsp;приглушения&nbsp;друзей.&nbsp;Отправляет&nbsp;пользователю&nbsp;список&nbsp;приглушенных&nbsp;друзей&nbsp;для&nbsp;возможной&nbsp;отмены<br>
+приглушения</span></dd></dl>
+</td></tr></table><p>
+<table class="section">
+<tr class="decor data-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td></tr>
+    
+<tr><td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><strong>bot</strong> = &lt;telebot.TeleBot object&gt;<br>
+<strong>button_no</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>button_notification</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>button_now</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>button_set_time</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>button_yes</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>data</strong> = {'Forkenghar': {'chat_id': 254394004, 'friend_requests': [], 'friends': ['linatabo', 'Forkenghar', 'nosferatu_gk', 'Kvazistam'], 'muted_friends': [], 'muted_share': {'Forkenghar': [{'author': 'サツキ', 'commentary': 'бубибуп', 'title': '否・アンチドート / 裏命', 'type': 'шлягер', 'url': 'https://www.youtube.com/watch?v=NDFITvBZg3s'}, {'author': 'Radio Neformat', 'commentary': 'ДЕЕЕТИ ХОРООНЯТ КОНЯЯЯЯЯ', 'title': 'Александр Лаэртский - Дети хоронят коня', 'type': 'шлягер', 'url': 'https://youtu.be/C1syOeUJGSI?si=YZzFww28xuBF7bv_'}], 'linatabo': [{'author': 'Syudou - Topic', 'commentary': '', 'title': 'yattyattawa', 'type': 'шлягер', 'url': 'https://music.youtube.com/watch?v=JKzKmY2NBE8'}]}, 'notifications': {'muted_friends': ['16', '17'], 'share_notification': ['8', '12', '16', '20']}, 'reciever_options': True}, 'Kvazistam': {'chat_id': 565098334, 'friend_requests': [], 'friends': ['Forkenghar'], 'muted_friends': [], 'notifications': {'muted_friends': ['16'], 'share_notification': ['8', '12', '16', '20']}, 'reciever_options': False}, 'linatabo': {'chat_id': 1071651209, 'friend_requests': [], 'friends': ['Forkenghar'], 'muted_friends': ['Forkenghar'], 'muted_share': {'Forkenghar': [{'author': 'サツキ', 'commentary': 'бубибуп', 'title': '否・アンチドート / 裏命', 'type': 'шлягер', 'url': 'https://www.youtube.com/watch?v=NDFITvBZg3s'}, {'author': 'Radio Neformat', 'commentary': 'ДЕЕЕТИ ХОРООНЯТ КОНЯЯЯЯЯ', 'title': 'Александр Лаэртский - Дети хоронят коня', 'type': 'шлягер', 'url': 'https://youtu.be/C1syOeUJGSI?si=YZzFww28xuBF7bv_'}]}, 'notifications': {'muted_friends': [], 'share_notification': []}, 'reciever_options': True}, 'nosferatu_gk': {'chat_id': 935917139, 'friend_requests': [], 'friends': ['Forkenghar'], 'muted_friends': [], 'muted_share': [], 'notifications': {'muted_friends': ['16'], 'share_notification': []}, 'reciever_options': True}}<br>
+<strong>dirname</strong> = r'.\__pycache__'<br>
+<strong>dirnames</strong> = []<br>
+<strong>f</strong> = &lt;_io.TextIOWrapper name='data.json' mode='r' encoding='cp1251'&gt;<br>
+<strong>filename</strong> = 'UserJSON.cpython-312.pyc'<br>
+<strong>filenames</strong> = ['get_url.cpython-311.pyc', 'get_url.cpython-312.pyc', 'keyboards.cpython-311.pyc', 'keyboards.cpython-312.pyc', 'main.cpython-312.pyc', 'messages.cpython-311.pyc', 'messages.cpython-312.pyc', 'save_load.cpython-311.pyc', 'save_load.cpython-312.pyc', 'sharefile.cpython-311.pyc', 'sharefile.cpython-312.pyc', 'UserJSON.cpython-311.pyc', 'UserJSON.cpython-312.pyc']<br>
+<strong>fourbutton</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>friendbutt1</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>friendbutt2</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>friendbutt3</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>friendbutt4</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>friendbutt5</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>hourlybutton</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>mainmenu_keyboard</strong> = &lt;telebot.types.ReplyKeyboardMarkup object&gt;<br>
+<strong>mute_button</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>mute_settings_keyboard</strong> = &lt;telebot.types.InlineKeyboardMarkup object&gt;<br>
+<strong>no_button</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>oncebutton</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>saved_time</strong> = ''<br>
+<strong>settimebutton</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>settings_button1</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>settings_button2</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>settings_button3</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>settings_button4</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>settings_friend_keyboard</strong> = &lt;telebot.types.InlineKeyboardMarkup object&gt;<br>
+<strong>settings_keyboard</strong> = &lt;telebot.types.InlineKeyboardMarkup object&gt;<br>
+<strong>settings_notifications_keyboard</strong> = &lt;telebot.types.InlineKeyboardMarkup object&gt;<br>
+<strong>share_back_keyboard</strong> = &lt;telebot.types.InlineKeyboardMarkup object&gt;<br>
+<strong>share_notification_keyboard</strong> = &lt;telebot.types.InlineKeyboardMarkup object&gt;<br>
+<strong>sharing_time</strong> = {}<br>
+<strong>start_message</strong> = 'шлягербот предназначен для того чтобы делиться м... в настройки чтобы сделать бота удобным для тебя!'<br>
+<strong>subdirname</strong> = '__pycache__'<br>
+<strong>time_keyboard</strong> = &lt;telebot.types.InlineKeyboardMarkup object&gt;<br>
+<strong>unmute_button</strong> = &lt;telebot.types.InlineKeyboardButton object&gt;<br>
+<strong>user_comment_to</strong> = {}<br>
+<strong>user_dict</strong> = {}<br>
+<strong>user_json</strong> = {'chat_id': '', 'friend_requests': [], 'friends': [], 'muted_friends': [], 'notifications': {'muted_friends': ['16'], 'share_notification': ['8', '12', '16', '20']}, 'reciever_options': False}<br>
+<strong>x</strong> = &lt;Thread(Thread-1 (message_timer), stopped 16648)&gt;<br>
+<strong>yesno_keyboard</strong> = &lt;telebot.types.InlineKeyboardMarkup object&gt;</td></tr></table>
+</body></html>
